@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* ENLACES PRINCIPALES */
+
+.enlaces-principales {
+    background: #55415f;
+    height: 35px;
+    line-height: 35px;
+}
+
+.enlaces-principales a {
+    color: #fff;
+    margin-left: 20px;
+}
+
+.content-enlacesPrincipales {
+    margin-left: auto;
+    margin-right: 0;
+    float: right;
+}
+
+/* HEADER */
+
+.content-nav {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 150px;
+}
+
+.nav-title .R {
+    font-size: 48px;
+}
+
+.nav-title .evelation {
+    font-size: 36px;
+}
+
+.border-enlaces a {
+    font-size: 17px;
+    margin-left: 15px;
+    color: #333;
+    padding-bottom: 10px;
+}
+
+.border-enlaces a:hover {
+    border-bottom: 3px solid #55415f;
+    padding-bottom: 10px;
+}
+
+/* SECTION IMAGE */
+
+.section {
+    background: #ebebeb;
+}
+
+.content-section {
+    display: flex;
+    justify-content: space-between;
+    height: 380px;
+    line-height: 380px;
+}
+
+.screen {
+    width: 50%;
+}
+
+.screen img {
+    margin-top: 20px;
+}
+
+.section-text {
+    margin-top: auto;
+    line-height: 20px;
+    margin-bottom: auto;
+    text-align: center;
+    width: 40%;
+}
+
+.section-text h1 {
+    margin-bottom: 30px;
+    font-size: 38px;
+    color: #333;
+}
+
+.section-text p {
+    margin-bottom: 30px;
+    color: #999;
+}
+
+.section-text>a {
+    width: 140px;
+    background-color: #55415f;
+    height: 50px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* CARTAS CON IMAGENES */
+
+.colum {
+    margin-top: 50px;
+}
+
+.content-colum {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+    margin-bottom: 50px;
+}
+
+.card-colum {
+    width: 22%;
+    text-align: center;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2);
+    padding: 15px 0 15px 0;
+    border-radius: 10px;
+}
+
+.card-colum-img img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.card-colum-title h4 {
+    margin-top: 10px;
+    color: #55415f;
+    font-size: 20px;
+}
+
+.card-colum-p p {
+    margin-top: 10px;
+    color: #333;
+}
+
+.colum-text {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* OTRAS COLUMNAS */
+
+.columMore .content {
+    height: 350px;
+}
+
+.content-columMore {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-colum-img2 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-columMore {
+    width: 22%;
+    text-align: center;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2);
+    padding: 15px 15px 30px 15px;
+    border-radius: 10px;
+}
+
+.t2 h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.p2 p {
+    margin-bottom: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    background: #222;
+}
+
+.content-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-footer {
+    width: 23%;
+}
+
+.card-footer h3 {
+    color: #fff;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 50;
+    margin-bottom: 20px;
+}
+
+.post {
+    color: #9f81a9;
+    font-weight: 900;
+}
+
+.post-date {
+    display: block;
+    color: #807d77;
+}
+
+.card1 p {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.card2, .card3, .card1 {
+    margin-right: 50px;
+}
+
+.card2 {
+    color: #9f81a9;
+}
+
+.card2 li {
+    list-style: none;
+    line-height: 25px;
+    font-weight: 900;
+}
+
+.card3 {
+    color: #807d77;
+}
+
+.card3 li {
+    list-style: none;
+}
+
+.card3 ul:nth-child(2) {
+    margin-top: 20px;
+}
+
+/* FORMULARIO */
+
+.content-frm input {
+    background: transparent;
+    border: 0;
+    height: 32px;
+    width: 100%;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.content-frm {
+    background: #353535;
+    width: 100%;
+    height: 32px;
+    border-radius: 5px;
+    padding: 0 0 0 5px;
+}
+
+.content-frm:nth-child(2) {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+form a {
+    color: #fff;
+    background: #55415f;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.copyrigth {
+    display: flex;
+    justify-content: space-between;
+    color: #807d77;
+    height: 50px;
+    line-height: 50px;
+    border-top: #807d77 1px solid;
+    margin-top: 30px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1016px) {
+    .content-nav {
+        flex-direction: column;
+        height: auto;
+        line-height: normal;
+    }
+    .nav-title {
+        text-align: center;
+    }
+    .nav-enlaces {
+        text-align: center;
+    }
+    .border-enlaces a:hover {
+        border-bottom: 0;
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .content-section {
+        flex-direction: column;
+        height: auto;
+        line-height: normal;
+        padding-bottom: 50px;
+    }
+    .screen {
+        width: 100%;
+        text-align: center;
+    }
+    .section-text {
+        width: 100%;
+    }
+    .section-text h1 {
+        line-height: 30px;
+    }
+    .card-colum {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    .content-colum {
+        flex-wrap: wrap;
+    }
+    .card-columMore{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    .columMore .content{
+        height: auto;
+    }
+    .content-columMore{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .content-enlacesPrincipales {
+        text-align: center;
+        float: none;
+    }
+    .card-footer{
+        width: 40%;
+    }
+    .content-footer{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .content-footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .card-footer{
+        width: 100%;
+    }
+    .content-columMore{
+        text-align: center;
+    }
+    .card-columMore{
+        width: 100%;
+        margin: 0 15px 20px 15px;
+    }
+
+    .columMore .content{
+        width: 100%;
+    }
+    .card-columMore:nth-child(1){
+        margin-top: 20px;
+    }
+    .card-colum {
+        width: 100%;
+    }
+    .card-colum:nth-child(1) {
+        margin-top: 4px;
+    }
+        
+}
