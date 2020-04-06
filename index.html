@@ -1,11 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .content {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .title h1 {
+            font-size: 50px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .title {
+            background-color: #333;
+        }
+
+        .parrafo {
+            font-size: 25px;
+            text-align: center;
+            height: 100px;
+        }
+
+        .card-enlace {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .part-image {
+            width: 60%;
+        }
+
+        .part-image img {
+            width: 100%;
+        }
+
+        .parrafo p {
+            margin-top: 50px;
+        }
+
+        .enlaces{
+            background: #eae7d9;
+            padding: 20px 0 20px 0;
+            box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+            margin: 10px 10px 20px 10px;
+        }
+
+        .enlaces:hover{
+            box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.9);
+        }
+
+        .part-enlace h2{
+            margin-bottom: 20px;
+        }
+
+        .part-enlace a{
+            color: white;
+            text-decoration: none;
+            background: #333;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 1px 1px 10px 0 rgba(255, 255, 255, 0.3);
+        }
+
+        .part-enlace a:hover{
+            box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.3);
+            background: #fff;
+            color: #333;
+        }
+        @media screen and (max-width: 600px) {
+            .card-enlace{
+                flex-direction: column;
+                text-align: center;
+            }
+            .part-image{
+                width: 90%;
+                margin: auto;
+            }
+            .part-enlace{
+                margin-bottom: 30px;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <a href="revelation/index.html">Revelation</a>
+    <div class="body">
+        <div class="title">
+            <div class="content">
+                <h1>vhherrera</h1>
+            </div>
+        </div>
+        <div class="content">
+            <div class="parrafo">
+                <p>En este repositorio se encuentran todas las plantillas que desarrollo de forma RESPOSIVE</p>
+            </div>
+            <div class="enlaces">
+                <div class="card-enlace">
+                    <div class="part-image">
+                        <img src="portadas/revelation.png" alt="">
+                    </div>
+                    <div class="part-enlace">
+                        <h2>Revelation</h2>
+                        <a href="revelation/index.html">Ingresar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="enlaces" >
+                <div class="card-enlace">
+                    <div class="part-image">
+                        <img src="portadas/revelation.png" alt="">
+                    </div>
+                    <div class="part-enlace">
+                        <h2>Revelation</h2>
+                        <a href="revelation/index.html">Ingresar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
