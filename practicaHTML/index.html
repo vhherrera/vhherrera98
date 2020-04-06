@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 2</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <a name="Inicio"></a>
+    <header>
+        <nav class="nav">
+            <div class="content nav">
+                <div class="title">
+                    <a href="morePage/info.html" target="_blank">
+                        <h1>Herrera V</h1>
+                    </a>
+                </div>
+                <div class="enlaces-nav">
+                    <a href="#">Inicio</a>
+                    <a href="#tiposListas">Listas</a>
+                    <a href="#tiposTablas">Tablas</a>
+                    <a href="#tiposImagenes">Imagenes</a>
+                </div>
+            </div>
+        </nav>
+        <!-- <hr width="100%"> -->
+        <div class="content">
+            <div class="content-text">
+                <div class="text">
+                    <h1>Practica HTML</h1>
+                    <p>HTML <strong>(HypertText Markup Language)</strong> en español, <strong>(Lenguaje de marcas de
+                            hipertexto)</strong>, hace referencia al lenguaje de marcado para la elaboracion de páginas
+                        web. Es un estándar que sirve de referencia del software que conecta con la elaboración de
+                        páginas web en sus diferentes versiones, define una estructura básica y un código
+                        <em>(denominado código HTML)</em> para la definición de contenido de una página web, como texto,
+                        imágenes, videos, juegos, entre otros.</p>
+                    <p>HTML se escribe en forma de «etiquetas», rodeadas por corchetes angulares
+                        <code>(&#8249, &#8250, /)</code>. HTML también puede describir, hasta un cierto punto, la
+                        apariencia de un documento, y puede incluir o hacer referencia a un tipo de llamado
+                        <strong><em>script</em></strong>, el cual puede afectar el comportamiento de navegadores web y
+                        otros procesadores de HTML.</p>
+                </div>
+                <img src="ilustraciones/staticWebsite.svg" alt="Esto es una ilustracion" width="40%" BORDER="5px #333"
+                    style="border: dashed; border-radius: 50px; padding: 50px;" ALIGN="RIGHT">
+            </div>
+        </div>
+    </header>
+    <!-- Estructura HTML -->
+    <section class="estructura">
+        <div class="content content-html">
+            <h1>Estructura HTML</h1>
+            <div class="estructura-html">
+                <section class="codigo-html">
+                    <h3>Lenguaje de Marcado</h3>
+                    <code>
+                        <span>&#8249html&#8250</span><br>
+                        <span>&#8249head&#8250</span><br>
+                        <span>&#8249title&#8250Ejemplo&#8249/title&#8250</span><br> 
+                        <span>&#8249/head&#8250</span><br>
+                        <span>&#8249body&#8250</span><br>
+                            <span class="left"></span><span>&#8249h1&#8250Mí primera página&#8249/h1&#8250</span><br>
+                            <br>
+                            <span class="left"></span><span>&#8249!--Comentario que no es interpretado en el navegador--&#8250</span><br>
+                            <br>
+                            <span class="left"></span><span>&#8249p&#8250Hola mundo, esta es una página con titular, que tiene también un párrafo y unos cuantos saltos de linea.&#8249/p&#8250</span><br>
+                            <br>
+                            <span class="left"></span><span>Uno&#8249br&#8250</span><br>
+                            <span class="left"></span><span>Dos&#8249br&#8250</span><br>
+                            <span class="left"></span><span>Tres&#8249br&#8250</span><br>
+                        <span>&#8249/body&#8250</span><br>
+                        <span>&#8249/html&#8250</span><br>
+                    </code>
+                </section>
+                <section class="muestra-html">
+                    <h3>Salida de Pantalla</h3>
+                    <div class="screen">
+                        <h1 style="margin-bottom: 20px;">Mí primera página</h1>
+                        <p>Hola mundo, esta es una página con titular, que tiene también un párrafo y unos cuantos saltos de linea.</p>
+                        <br>
+                        Uno <br>
+                        Dos <br>
+                        Tres <br>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+    <!-- <hr width="100%"> -->
+    <a name="tiposListas"></a>
+    <div class="more">
+        <div class="content">
+            <h1>Tipos de Listas</h1>
+            <div class="content-listas">
+                <div class="listas">
+                    <h3>Lista Ordenada</h3>
+                    <ol>
+                        <li>Contenido</li>
+                        <li>Contenido</li>
+                        <li>Contenido</li>
+                        <li>Contenido</li>
+                        <li>Contenido</li>
+                        <li>Contenido</li>
+                    </ol>
+                </div>
+                <div class="listas">
+                    <h3>Lista Sin Ordenar</h3>
+                    <ul>
+                        <li>Contenido</li>
+                        <li>Contenido</li>
+                        <li>Contenido</li>
+                        <li>Contenido</li>
+                        <li>Contenido</li>
+                        <li>Contenido</li>
+                    </ul>
+                </div>
+                <div class="listas">
+                    <h3>Lista de Glosario</h3>
+                    <dl>
+                        <dt>Termino 1</dt>
+                        <dd>Contenido</dd>
+                        <dt>Termino 2</dt>
+                        <dd>Contenido</dd>
+                        <dt>Termino 3</dt>
+                        <dd>Contenido</dd>
+                    </dl>
+                </div>
+                <div class="listas anidada">
+                    <h3>Lista Anidada</h3>
+                    <ul>
+                        <li>Uno
+                            <ul>
+                                <li>Sub-uno</li>
+                                <li>Sub-uno</li>
+                            </ul>
+                        </li>
+                        <li>Dos
+                            <ul>
+                                <li>Sub-dos</li>
+                                <li>Sub-dos</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="enlaceLista">
+            <a href="morePage/listaCodigo.html">Ver Codigo de Listas</a>
+        </div>
+    </div>
+    <!-- <hr width="100%"> -->
+    <a name="tiposTablas"></a>
+    <div class="content content-table">
+        <h1>Tipos de Tablas</h1>
+        <div class="table">
+            <div class="tablas">
+                <h3>Tabla Simetrica</h3>
+                <table border="1">
+                    <tr>
+                        <th>Cabecera 1</th>
+                        <th>Cabecera 2</th>
+                        <th>Cabecera 3</th>
+                        <th>Cabecera 4</th>
+                    </tr>
+                    <tr>
+                        <td>contenido</td>
+                        <td>contenido</td>
+                        <td>contenido</td>
+                        <td>contenido</td>
+                    </tr>
+                    <tr>
+                        <td>contenido</td>
+                        <td>contenido</td>
+                        <td>contenido</td>
+                        <td>contenido</td>
+                    </tr>
+                    <tr>
+                        <td>contenido</td>
+                        <td>contenido</td>
+                        <td>contenido</td>
+                        <td>contenido</td>
+                    </tr>
+                    <tr>
+                        <td>contenido</td>
+                        <td>contenido</td>
+                        <td>contenido</td>
+                        <td>contenido</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tablas">
+                <h3>Tabla Asimetrica</h3>
+                <table border="1">
+                    <tr>
+                        <th>Cabecera 1</th>
+                        <th>Cabecera 2</th>
+                        <th>Cabecera 3</th>
+                        <th>Cabecera 4</th>
+                    </tr>
+                    <tr>
+                        <td colspan="2">contenido</td>
+                        <td>contenido</td>
+                        <td>contenido</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">contenido</td>
+                        <td>contenido</td>
+                        <td colspan="2">contenido</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">contenido</td>
+                    </tr>
+                    <tr>
+                        <td>contenido</td>
+                        <td>contenido</td>
+                        <td>contenido</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="enlaceTabla">
+            <a href="morePage/tablaCodigo.html">Ver Codigo de Tablas</a>
+        </div>
+    </div>
+    <a name="tiposImagenes"></a>
+    <!-- <hr width="100%"> -->
+    <section class="images">
+        <div class="content content-images">
+            <section class="container-images">
+                <div class="image">
+                    <img src="ilustraciones/social1.svg" alt="imagen1" width="90%"
+                        style="border: 10px dashed #fff; border-radius: 20px;">
+                </div>
+                <div class="image">
+                    <img src="ilustraciones/websiteSetup.svg" alt="imagen1" width="90%"
+                        style="border: 10px solid #fff; border-radius: 20px;">
+                </div>
+                <div class="image">
+                    <img src="ilustraciones/social2.svg" alt="imagen1" width="90%"
+                        style="border: 10px dotted #fff; border-radius: 20px;">
+                </div>
+                <div class="image">
+                    <img src="ilustraciones/portfolioWebsite.svg" alt="imagen1" width="90%"
+                        style="border: 10px double #fff  ; border-radius: 20px;">
+                </div>
+            </section>
+            <section class="results-image">
+                <div class="result-text">
+                    <h4>Imagenes y Bordes</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum praesentium modi expedita.</p>
+                    <a href="morePage/imagenesCodigo.html">Mostrar Codigo</a>
+                </div>
+            </section>
+        </div>
+    </section>
+    <a class='flotante' href='#Inicio'>Arriba</a>
+</body>
+
+</html>

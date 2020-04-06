@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .volver {
+            display: scroll;
+            position: fixed;
+            width: 75px;
+            height: 75px;
+            background: #2570ff;
+            margin-left: 25px;
+            margin-top: 25px;
+            border-radius: 50px;
+            text-align: center;
+            line-height: 75px;
+            color: #fff;
+        }
+
+        .div {
+            width: 25px;
+            display: inline-block;
+        }
+
+        .div2 {
+            width: 40px;
+            display: inline-block;
+        }
+
+        .div3 {
+            width: 55px;
+            display: inline-block;
+        }
+
+        .cod {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html#tiposListas" class="volver">Volver</a>
+    </header>
+    <div class="more">
+        <div class="content">
+            <h1>Tipos de Listas</h1>
+            <div class="content-listas">
+                <div class="listas">
+                    <h3>Lista Ordenada</h3>
+                    <ol>
+                        <li>Contenido</li>
+                        <li>Contenido</li>
+                        <li>Contenido</li>
+                        <li>Contenido</li>
+                        <li>Contenido</li>
+                        <li>Contenido</li>
+                    </ol>
+                    <div class="cod" style="text-align: left;">
+                        <code>
+                            <span>&#8249ol&#8250</span><br>
+                            <span class="div"></span><span>&#8249li&#8250Contenido&#8249/li&#8250</span><br>
+                            <span class="div"></span><span>&#8249li&#8250Contenido&#8249/li&#8250</span><br>
+                            <span class="div"></span><span>&#8249li&#8250Contenido&#8249/li&#8250</span><br>
+                            <span class="div"></span><span>&#8249li&#8250Contenido&#8249/li&#8250</span><br>
+                            <span class="div"></span><span>&#8249li&#8250Contenido&#8249/li&#8250</span><br>
+                            <span class="div"></span><span>&#8249li&#8250Contenido&#8249/li&#8250</span><br>
+                            <span>&#8249/ol&#8250</span>
+                        </code>
+                    </div>
+                </div>
+                <div class="listas">
+                    <h3>Lista Sin Ordenar</h3>
+                    <ul>
+                        <li>Contenido</li>
+                        <li>Contenido</li>
+                        <li>Contenido</li>
+                        <li>Contenido</li>
+                        <li>Contenido</li>
+                        <li>Contenido</li>
+                    </ul>
+                    <div class="cod" style="text-align: left;">
+                        <code>
+                            <span>&#8249ul&#8250</span><br>
+                            <span class="div"></span><span>&#8249li&#8250Contenido&#8249/li&#8250</span><br>
+                            <span class="div"></span><span>&#8249li&#8250Contenido&#8249/li&#8250</span><br>
+                            <span class="div"></span><span>&#8249li&#8250Contenido&#8249/li&#8250</span><br>
+                            <span class="div"></span><span>&#8249li&#8250Contenido&#8249/li&#8250</span><br>
+                            <span class="div"></span><span>&#8249li&#8250Contenido&#8249/li&#8250</span><br>
+                            <span class="div"></span><span>&#8249li&#8250Contenido&#8249/li&#8250</span><br>
+                            <span>&#8249/ul&#8250</span>
+                        </code>
+                    </div>
+                </div>
+                <div class="listas">
+                    <h3>Lista de Glosario</h3>
+                    <dl>
+                        <dt>Termino 1</dt>
+                        <dd>Contenido</dd>
+                        <dt>Termino 2</dt>
+                        <dd>Contenido</dd>
+                        <dt>Termino 3</dt>
+                        <dd>Contenido</dd>
+                    </dl>
+                    <div class="cod" style="text-align: left;">
+                        <code>
+                            <span>&#8249dl&#8250</span><br>
+                            <span class="div"></span><span>&#8249dt&#8250Termino 1&#8249/dt&#8250</span><br>
+                            <span class="div"></span><span>&#8249dd&#8250Contenido&#8249/dd&#8250</span><br>
+                            <span class="div"></span><span>&#8249dt&#8250Termino 2&#8249/dt&#8250</span><br>
+                            <span class="div"></span><span>&#8249dd&#8250Contenido&#8249/dd&#8250</span><br>
+                            <span class="div"></span><span>&#8249dt&#8250Termino 3&#8249/dt&#8250</span><br>
+                            <span class="div"></span><span>&#8249dd&#8250Contenido&#8249/dd&#8250</span><br>
+                            <span>&#8249/dl&#8250</span>
+                        </code>
+                    </div>
+                </div>
+                <div class="listas anidada">
+                    <h3>Lista Anidada</h3>
+                    <ul>
+                        <li>Uno
+                            <ul>
+                                <li>Sub-uno</li>
+                                <li>Sub-uno</li>
+                            </ul>
+                        </li>
+                        <li>Dos
+                            <ul>
+                                <li>Sub-dos</li>
+                                <li>Sub-dos</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="cod" style="text-align: left;">
+                        <code>
+                            <span>&#8249ul&#8250</span><br>
+                            <span class="div"></span><span>&#8249li&#8250</span><span>Uno</span><br>
+                            <span class="div2"></span><span>&#8249ul&#8250</span><br>
+                            <span class="div3"></span><span>&#8249li&#8250Sub-Uno&#8249/li&#8250</span><br>
+                            <span class="div3"></span><span>&#8249li&#8250Sub-Uno&#8249/li&#8250</span><br>
+                            <span class="div2"></span><span>&#8249/ul&#8250</span><br>
+                            <span class="div"></span><span>&#8249/li&#8250</span><br>
+                            <span class="div"></span><span>&#8249li&#8250</span><span>Dos</span><br>
+                            <span class="div2"></span><span>&#8249ul&#8250</span><br>
+                            <span class="div3"></span><span>&#8249li&#8250Sub-Dos&#8249/li&#8250</span><br>
+                            <span class="div3"></span><span>&#8249li&#8250Sub-Dos&#8249/li&#8250</span><br>
+                            <span class="div2"></span><span>&#8249/ul&#8250</span><br>
+                            <span class="div"></span><span>&#8249/li&#8250</span><br>
+                            <span>&#8249/ul&#8250</span>
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
